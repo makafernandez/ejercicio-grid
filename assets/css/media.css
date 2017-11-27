@@ -1,0 +1,31 @@
+@media (min-width: 535px) and (max-width: 824px) {
+	[class *= "col-"] {
+		width: 100%;
+	}
+	
+	body {
+		background-color: #000;
+		color: #fff;
+	}
+	
+	.img {
+		border: 2px solid #fff;
+		width: 100%;
+		content: url(../img/plaza_de_armas_medias.jpg);
+	}
+}
+
+@media (min-width: 200px) and (max-width: 534px) {
+	[class *= "col-"] {
+		width: 100%;
+	}
+	
+	body {
+		background-color: #07b399;
+		color: #dfdfdf;
+	}
+	
+	.img {
+		display: none;
+	}
+}
